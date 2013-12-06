@@ -32,7 +32,7 @@ public class RegistroFacadeREST extends AbstractFacade<Registro> {
         super(Registro.class);
     }
 
-    @POST
+    @POST    
     @Override
     @Consumes({"application/xml", "application/json"})
     public void create(Registro entity) {
